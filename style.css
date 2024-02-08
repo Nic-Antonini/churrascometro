@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(56, 23, 9);
+    padding-top: 100px;
+}
+
+.container{
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(144, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+input{
+    margin: auto;
+    width: 70%;
+    display: block; /*o elemento vai tampar toda linha, nao pode ter nada ao seu lado*/
+    padding: 5px;
+    box-sizing: border-box; /*para nao afetar o padding*/
+    margin-bottom: 10px;
+}
+
+.buttonArea{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.result{
+    border-top: 1px solid white;
+    max-width: 500px;
+    line-height: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
